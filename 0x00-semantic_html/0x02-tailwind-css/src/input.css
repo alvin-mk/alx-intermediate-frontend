@@ -1,0 +1,18 @@
+/* Import Tailwind's base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr; /* Stack all grid columns in one row */
+    }
+
+    nav {
+        flex-direction: column; /* Adjust nav items to stack vertically */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    main {
+        flex-direction: column; /* Stack flexbox children vertically */
+    }
+}
