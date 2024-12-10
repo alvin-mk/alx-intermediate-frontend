@@ -1,0 +1,6 @@
+# 0-installation-script content
+1. Install NVM using curl script
+2. Restart terminal
+3. Install Node.js v20.16 using NVM
+4. Install SASS globally using npm
+5. Verify SASS installation
